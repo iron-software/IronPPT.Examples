@@ -1,5 +1,5 @@
 using IronPPT;
-using IronPPT.Examples.Tutorial.SlideElement;
+using IronPPT.Examples.HowTo.ManageImage;
 
 
 Section1.Run();

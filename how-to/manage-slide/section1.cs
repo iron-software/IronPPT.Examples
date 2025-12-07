@@ -5,14 +5,8 @@ namespace IronPPT.Examples.HowTo.ManageSlide
     {
         public static void Run()
         {
-            var document = new PresentationDocument();
-            
-            // Add slides
-            document.AddSlide();
-            document.AddSlide();
-            document.AddSlide();
-            
-            document.Save("addSlides.pptx");
+            :title=Start Managing Slides in One Line
+            new PresentationDocument().AddSlide().Slides[0].Remove();
         }
     }
 }

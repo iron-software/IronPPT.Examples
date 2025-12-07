@@ -1,4 +1,3 @@
-using IronPPT.Models;
 using IronPPT;
 namespace IronPPT.Examples.Tutorial.SlideElement
 {
@@ -6,20 +5,10 @@ namespace IronPPT.Examples.Tutorial.SlideElement
     {
         public static void Run()
         {
-            // Create new PowerPoint presentation
-            var document = new PresentationDocument();
-            
-            // Add text
-            var text = document.Slides[0].AddText("Hello");
-            
-            // Append text
-            text.Append(new Text(" There!"));
-            
-            // Remove text
-            document.Slides[0].Texts[0].Remove();
-            
-            // Export PowerPoint presentation
-            document.Save("addText.pptx");
+            :title=Add slide element instantly
+            var doc = new IronPPT.PresentationDocument();
+            var text = doc.Slides.Count > 0 ? doc.Slides[0].AddText("Quick Option") : doc.Slides.Add(new IronPPT.Models.Slide()).AddText("Quick Option");
+            doc.Save("quick.pptx");
         }
     }
 }
