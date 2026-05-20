@@ -1,68 +1,70 @@
-![Nuget](https://img.shields.io/nuget/v/IronPPT?color=informational&label=latest)![Installs](https://img.shields.io/nuget/dt/IronPPT?color=informational&label=installs&logo=nuget)![Passed](https://img.shields.io/badge/build-%20%E2%9C%93%20522%20tests%20passed%20(0%20failed)%20-107C10?logo=visualstudio)![windows](https://img.shields.io/badge/%E2%80%8E%20-%20%E2%9C%93-107C10?logo=windows)![macOS](https://img.shields.io/badge/%E2%80%8E%20-%20%E2%9C%93-107C10?logo=apple)![linux](https://img.shields.io/badge/%E2%80%8E%20-%20%E2%9C%93-107C10?logo=linux&logoColor=white)![docker](https://img.shields.io/badge/%E2%80%8E%20-%20%E2%9C%93-107C10?logo=docker&logoColor=white)![aws](https://img.shields.io/badge/%E2%80%8E%20-%20%E2%9C%93-107C10?logo=amazonaws)![microsoftazure](https://img.shields.io/badge/%E2%80%8E%20-%20%E2%9C%93-107C10?logo=microsoftazure)[![livechat](https://img.shields.io/badge/Live%20Chat:-24/5-purple?logo=googlechat&logoColor=white)](https://ironsoftware.com/csharp/ppt/?utm_source=nuget&utm_medium=organic&utm_campaign=readme&utm_content=topshield#helpscout-support)
+# IronPPT.Examples
 
-## IronPPT - C# Library for PowerPoint Management
+Runnable C# examples for [IronPPT](https://ironsoftware.com/csharp/ppt/), a .NET library for creating, reading, and editing PPTX presentations without Microsoft PowerPoint or Office Interop.
 
-[![IronPPT NuGet Trial Banner Image](https://raw.githubusercontent.com/iron-software/iron-nuget-assets/main/IronPPT-readme/nuget-trial-banner.png)](https://ironsoftware.com/csharp/ppt/?utm_source=nuget&utm_medium=organic&utm_campaign=readme&utm_content=topbanner#trial-license)
+## Install
 
-IronPPT is a comprehensive C# library designed for crafting and modifying PowerPoint presentations. Its powerful API supports the creation of slides and facilitates the embedding of text, images, shapes, and diverse multimedia components. This makes it an exceptional tool for developers who intend to streamline PowerPoint-related operations within .NET frameworks.
+```bash
+dotnet add package IronPPT
+```
 
-### Key Capabilities of IronPPT
+## Quickstart
 
-  * Programmatic generation and alteration of PowerPoint slides.
-  * Embedding and styling text, imagery, shapes, and multimedia.
-  * Streamlining routine PowerPoint tasks within .NET frameworks.
-  * Compatibility with .NET Framework 4.6.2 onwards and .NET 6.0 and beyond.
-  * Intuitive API integration enhancing project fluidity.
+```csharp
+using IronPPT;
+using IronPPT.Models;
 
-Explore more on [our home page](https://ironsoftware.com/csharp/ppt/?utm_source=nuget&utm_medium=organic&utm_campaign=readme&utm_content=featureslist), including a plethora of [coding examples](https://ironsoftware.com/csharp/ppt/examples/add-text/?utm_source=nuget&utm_medium=organic&utm_campaign=readme&utm_content=featureslist) and a [comprehensive feature list](https://ironsoftware.com/csharp/ppt/?utm_source=nuget&utm_medium=organic&utm_campaign=readme&utm_content=featureslist).
+// Create a new presentation
+var document = new PresentationDocument();
 
-#### IronPPT Supports Various Platforms Including:
+// Add a slide with text
+var slide = new Slide();
+slide.AddText("Hello from IronPPT!");
+document.AddSlide(slide);
 
-  * **.NET versions 9 through 5**, Core 2x & 3x, Standard 2 & 2.1, and Framework 4.6.2 onwards.
-  * Environments such as Windows, macOS, Linux, plus containers like Docker, and Cloud platforms including Azure and AWS.
+document.Save("hello.pptx");
+```
 
-[![IronPPT Cross Platform Compatibility Support Image](https://raw.githubusercontent.com/iron-software/iron-nuget-assets/main/IronPPT-readme/cross-platform-compatibility.png)](https://ironsoftware.com/csharp/ppt/docs/?utm_source=nuget&utm_medium=organic&utm_campaign=readme&utm_content=crossplatformbanner)
+To edit an existing deck, use `new PresentationDocument("existing.pptx")` and access slides through the `Slides` collection — for example, `document.Slides[0].TextBoxes[0].AddText("Updated title")`. Images, shapes, and styled paragraphs follow the same pattern: construct, configure, add to a slide.
 
-All details regarding our [API documentation](https://ironsoftware.com/csharp/ppt/object-reference/api/?utm_source=nuget&utm_medium=organic&utm_campaign=readme&utm_content=supportanddocs) and [licensing terms](https://ironsoftware.com/csharp/ppt/licensing/?utm_source=nuget&utm_medium=organic&utm_campaign=readme&utm_content=supportanddocs#trial-license) are available on our site.
+For production use, set a license key via `License.LicenseKey = "YOUR-KEY"`. Without one, presentations include a watermark.
 
-### How to Utilize IronPPT
+## What's in this repo
 
-Begin by installing the IronPPT NuGet package using this command in your package management console:
+Each folder contains a self-contained .NET project you can open and run:
 
-    PM> Install-Package IronPPT
-    
+- `examples/` — focused snippets demonstrating individual features
+- `get-started/` — minimal first projects including license-key setup
+- `how-to/` — task-oriented guides for specific presentation operations
+- `quickstart/` — end-to-end project scaffolds
+- `tutorials/` — longer walkthroughs (including the `slide-element` tutorial covering text boxes, paragraphs, images, and shapes)
 
-    using IronPPT;
-    
-    var presentation = new PresentationDocument();
-    
-    // Create a new Slide
-    Slide slide = new Slide();
-    
-    // Insert text into the slide
-    slide.AddText("Sample Text Entry");
-    
-    // Incorporate the slide into the presentation
-    presentation.AddSlide(slide);
-    
-    presentation.Save("NewSlidePresentation.pptx");
-    
+## Common tasks covered
 
-### Feature Overview
+- Creating and loading PPTX files
+- Adding slides, text boxes, and styled paragraphs
+- Text styling: font family, size, color, bold, italic, underline, alignment
+- Inserting images with positioning, scaling, and sizing
+- Adding shapes with fill color, outline, rotation, and shape type (rectangle, triangle, ellipse, cloud, and more)
+- Slide layout: size, orientation, background color
+- Reading text and structural content from existing decks
+- Bullet and numbered lists with custom indentation
 
-[![IronPPT Features](https://raw.githubusercontent.com/iron-software/iron-nuget-assets/main/IronPPT-readme/features-table.png)](https://ironsoftware.com/csharp/ppt/?utm_source=nuget&utm_medium=organic&utm_campaign=readme&utm_content=featuresbanner)
+## Current scope
 
-### Licensing & Support Availability
+IronPPT supports programmatic creation and editing of `.pptx` files. Rendering presentations to PDF or images, and slideshow playback, are not currently supported — for PDF output from a presentation, generate the PPTX with IronPPT and convert it separately.
 
-Visit [our official website](https://ironsoftware.com/csharp/ppt/) for extensive tutorials, example code, licensing details, and documentation.
+## Platform support
 
-Contact our support team via email: support@ironsoftware.com
+.NET 10, 9, 8, 7, 6, 5, .NET Core 3.1, .NET Standard 2 and 2.1, and .NET Framework 4.6.2+. Windows, macOS, Linux, Docker, Azure, and AWS. See the [installation docs](https://ironsoftware.com/csharp/ppt/docs/) for environment-specific notes.
 
-### Documentation Resources
+## Documentation and support
 
-  * How-To Guides : [https://ironsoftware.com/csharp/ppt/how-to/](https://ironsoftware.com/csharp/ppt/how-to/html-file-to-pdf/?utm_source=nuget&utm_medium=organic&utm_campaign=readme&utm_content=supportanddocs)
-  * Code Samples : [https://ironsoftware.com/csharp/ppt/examples/](https://ironsoftware.com/csharp/ppt/examples/?utm_source=nuget&utm_medium=organic&utm_campaign=readme&utm_content=supportanddocs)
-  * API Guide : [https://ironsoftware.com/csharp/ppt/object-reference/api/](https://ironsoftware.com/csharp/ppt/object-reference/api/?utm_source=nuget&utm_medium=organic&utm_campaign=readme&utm_content=supportanddocs)
-  * Tutorial Listings : [https://ironsoftware.com/csharp/ppt/tutorials/](https://ironsoftware.com/csharp/ppt/tutorials/?utm_source=nuget&utm_medium=organic&utm_campaign=readme&utm_content=supportanddocs)
-  * Licensing Details : [https://ironsoftware.com/csharp/ppt/licensing/](https://ironsoftware.com/csharp/ppt/licensing/?utm_source=nuget&utm_medium=organic&utm_campaign=readme&utm_content=supportanddocs)
-  * Live Support Chat : [https://ironsoftware.com/csharp/ppt/#helpscout-support](https://ironsoftware.com/csharp/ppt/?utm_source=nuget&utm_medium=organic&utm_campaign=readme&utm_content=supportanddocs#helpscout-support)
+- Full documentation: [ironsoftware.com/csharp/ppt/docs/](https://ironsoftware.com/csharp/ppt/docs/)
+- API reference: [ironsoftware.com/csharp/ppt/object-reference/api/](https://ironsoftware.com/csharp/ppt/object-reference/api/)
+- Issues with these examples: file directly on this repository
+- Product support: [support@ironsoftware.com](mailto:support@ironsoftware.com)
+
+## About
+
+This repository is maintained by [Iron Software](https://ironsoftware.com/). IronPPT is a commercial library — see [licensing](https://ironsoftware.com/csharp/ppt/licensing/) for terms and trial details.
