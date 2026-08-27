@@ -1,3 +1,4 @@
+using IronPPT.Models;
 using IronPPT;
 namespace IronPPT.Examples.HowTo.AddSlide
 {

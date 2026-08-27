@@ -1,3 +1,4 @@
+using IronPPT.Enums;
 using IronPPT.Models;
 using IronPPT;
 namespace IronPPT.Examples.Tutorial.SlideElement
