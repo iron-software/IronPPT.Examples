@@ -1,4 +1,4 @@
-***Based on <https://ironsoftware.com/examples/add-paragraph/>***
+> Full guide: [Add paragraph](https://ironsoftware.com/csharp/ppt/examples/add-paragraph/)
 
 Automating the insertion of paragraphs into PowerPoint slides is a transformative efficiency for developers. It sidesteps the monotony of repetitive tasks, freeing up resources to enhance both productivity and the creative aspects of presentation design.
 

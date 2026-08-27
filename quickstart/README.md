@@ -1,6 +1,6 @@
 # Getting Started with IronPPT
 
-***Based on <https://ironsoftware.com/docs/docs/>***
+> Docs: [IronPPT documentation](https://ironsoftware.com/csharp/ppt/docs/)
 
 
 ## Introduction to IronPowerPoint: PowerPoint Library for .NET Developers

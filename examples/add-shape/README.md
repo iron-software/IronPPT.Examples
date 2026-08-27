@@ -1,4 +1,4 @@
-***Based on <https://ironsoftware.com/examples/add-shape/>***
+> Full guide: [Add shape](https://ironsoftware.com/csharp/ppt/examples/add-shape/)
 
 PowerPoint shapes play a crucial role, structuring content, emphasizing important points, and enhancing visual aesthetics. They help in organizing information, designing diagrams, and directing viewer attention. Shapes like arrows, rectangles, and circles not only make presentations more interactive but also uphold a level of professionalism.
 

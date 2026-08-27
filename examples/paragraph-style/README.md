@@ -1,4 +1,4 @@
-***Based on <https://ironsoftware.com/examples/paragraph-style/>***
+> Full guide: [Paragraph style](https://ironsoftware.com/csharp/ppt/examples/paragraph-style/)
 
 Creating slides with customized content is crucial for crafting powerful presentations. Being able to tailor every aspect of the text and paragraphs allows presenters to spotlight vital information or points of interest. IronPPT, a robust .NET library designed for managing PowerPoint presentations, offers comprehensive tools for paragraph styling. This enables developers to adjust settings such as line spacing, text alignment, indents, and bullet lists within a single integrated package.
 

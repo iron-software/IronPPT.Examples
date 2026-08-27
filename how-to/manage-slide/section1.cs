@@ -5,7 +5,6 @@ namespace IronPPT.Examples.HowTo.ManageSlide
     {
         public static void Run()
         {
-            :title=Start Managing Slides in One Line
             new PresentationDocument().AddSlide().Slides[0].Remove();
         }
     }

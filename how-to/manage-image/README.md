@@ -1,6 +1,6 @@
 # How to Manage Images in PowerPoint Presentations
 
-***Based on <https://ironsoftware.com/how-to/manage-image/>***
+> Full guide: [How to Manage Images in PowerPoint Presentations](https://ironsoftware.com/how-to/manage-image/)
 
 
 Images play a crucial role in enhancing PowerPoint presentations by providing visual support to the content, making it memorable and engaging. Mastery of inserting, updating, and removing visuals is essential to keep the presentation looking professional and up-to-date.

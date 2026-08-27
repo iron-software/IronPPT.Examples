@@ -6,7 +6,6 @@ namespace IronPPT.Examples.HowTo.ManageSlide
         public static void Run()
         {
             // Ensure you have the necessary using directives for any external libraries or namespaces.
-            using IronPPT;
             
             // Instantiate a new PresentationDocument object.
             var document = new PresentationDocument();
