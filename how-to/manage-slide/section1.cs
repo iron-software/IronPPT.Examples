@@ -5,7 +5,11 @@ namespace IronPPT.Examples.HowTo.ManageSlide
     {
         public static void Run()
         {
-            new PresentationDocument().AddSlide().Slides[0].Remove();
+            var document = new PresentationDocument();
+            document.AddSlide();
+
+            // Slides is a List<Slide> on the document; Slide itself has no Remove
+            document.Slides.RemoveAt(0);
         }
     }
 }

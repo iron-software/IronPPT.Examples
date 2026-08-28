@@ -6,7 +6,10 @@ namespace IronPPT.Examples.Tutorial.SlideElement
         public static void Run()
         {
             var doc = new IronPPT.PresentationDocument();
-            var text = doc.Slides.Count > 0 ? doc.Slides[0].AddText("Quick Option") : doc.Slides.Add(new IronPPT.Models.Slide()).AddText("Quick Option");
+            // List<Slide>.Add returns void, so a new slide comes from AddSlide,
+            // which hands the Slide back.
+            var slide = doc.Slides.Count > 0 ? doc.Slides[0] : doc.AddSlide();
+            var text = slide.AddText("Quick Option");
             doc.Save("quick.pptx");
         }
     }

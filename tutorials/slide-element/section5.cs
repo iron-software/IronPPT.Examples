@@ -21,10 +21,12 @@ namespace IronPPT.Examples.Tutorial.SlideElement
                 FillColor = new Color("#444444"),
                 OutlineColor = Color.Black,
             
-                // Position is set via assumed X and Y positioning properties.
-                // It's important that these properties are set to valid coordinates for display on the slide.
-                XPosition = 200,
-                YPosition = 200
+                // Position is an ElementPosition holding X and Y as DocUnits
+                Position = new IronPPT.Models.ElementPosition
+                {
+                    X = new IronPPT.Models.DocUnit { Point = 200 },
+                    Y = new IronPPT.Models.DocUnit { Point = 200 }
+                }
             };
             
             // Add the shape to the first slide in the presentation.

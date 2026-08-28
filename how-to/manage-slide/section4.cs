@@ -11,8 +11,8 @@ namespace IronPPT.Examples.HowTo.ManageSlide
             // Add a new slide to the presentation
             document.AddSlide();
             
-            // Hide the first slide by setting its visibility to false
-            document.Slides[0].Visible = false;
+            // Hide the first slide; the property is Show, not Visible
+            document.Slides[0].Show = false;
             
             // Save the presentation to a file named 'hideSlide.pptx'
             document.Save("hideSlide.pptx");
