@@ -19,7 +19,7 @@
 
 ### Installing IronPPT
 
-The installation of IronPPT is streamlined and user-friendly. Import the library by executing:
+The installation of IronPPT is simplified and user-friendly. Import the library by executing:
 
 ```shell
 Install-Package IronPPT
@@ -66,7 +66,7 @@ namespace IronPPTApplication
 
 ## Practical Code Examples
 
-Let’s delve into some practical uses and capabilities of IronPPT.
+Let’s look at some practical uses and capabilities of IronPPT.
 
 ## Constructing a PowerPoint Presentation
 

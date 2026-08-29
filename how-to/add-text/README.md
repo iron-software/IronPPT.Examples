@@ -2,7 +2,7 @@
 
 > Full guide: [How to Insert Text into PowerPoint Slides Using IronPPT](https://ironsoftware.com/how-to/add-text/)
 
-Text plays a pivotal role in presentations, and with IronPPT, dynamically adding text to slides directly through your program is streamlined and efficient.
+Text plays a pivotal role in presentations, and with IronPPT, dynamically adding text to slides directly through your program is simplified and efficient.
 
 This tutorial will demonstrate how to add text to PowerPoint slides using IronPPT.
 
