@@ -1,6 +1,6 @@
 # C# Slide Element Guide – IronPPT
 
-> Full guide: [C# Slide Element Guide – IronPPT](https://ironsoftware.com/tutorials/slide-element/)
+> Full guide: [C# Slide Element Guide – IronPPT](https://ironsoftware.com/csharp/ppt/tutorials/slide-element/)
 
 
 IronPPT serves as a powerful PowerPoint toolkit, enabling .NET C# developers to efficiently manage creation, reading, and modification of PowerPoint slides within their software solutions. Slides are crucial, as they help articulate and structure the presentation content clearly.

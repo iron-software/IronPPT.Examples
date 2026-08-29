@@ -1,6 +1,6 @@
 # How to Insert Text into PowerPoint Slides Using IronPPT
 
-> Full guide: [How to Insert Text into PowerPoint Slides Using IronPPT](https://ironsoftware.com/how-to/add-text/)
+> Full guide: [How to Insert Text into PowerPoint Slides Using IronPPT](https://ironsoftware.com/csharp/ppt/how-to/add-text/)
 
 Text plays a pivotal role in presentations, and with IronPPT, dynamically adding text to slides directly through your program is simplified and efficient.
 

@@ -1,6 +1,6 @@
 # Utilizing IronPPT License Keys
 
-> Full guide: [Utilizing IronPPT License Keys](https://ironsoftware.com/get-started/license-keys/)
+> Full guide: [Utilizing IronPPT License Keys](https://ironsoftware.com/csharp/barcode/get-started/license-keys/)
 
 ## Acquiring a License Key
 
