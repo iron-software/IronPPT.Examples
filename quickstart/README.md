@@ -151,7 +151,7 @@ presentation.Save("FinalPresentation.pptx");
 
 **IronPPT** offers [complimentary trial licenses](https://ironsoftware.com/csharp/ppt/trial-license?utm_source=github).
 
-For comprehensive details about Iron Software, visit [our homepage](https://ironsoftware.com/?utm_source=github). For support or queries, feel free to [reach out to our support team](https://www.ironsoftware.com/csharp/ppt/?utm_source=github#live-chat-support).
+For comprehensive details about Iron Software, visit [our homepage](https://ironsoftware.com/?utm_source=github). For support or queries, feel free to [reach out to our support team](https://ironsoftware.com/csharp/ppt/?utm_source=github#live-chat-support).
 
 ### Assistance from Iron Software
 
