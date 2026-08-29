@@ -1,4 +1,4 @@
-> Full guide: [Add slide](https://ironsoftware.com/csharp/ppt/examples/add-slide/)
+> Full guide: [Add slide](https://ironsoftware.com/csharp/ppt/examples/add-slide/?utm_source=github)
 
 IronPPT is a library designed to simplify the automation of PowerPoint document creation. It simplifies the process of programmatically adding slides and embellishing them with text and other elements. With IronPPT, users can fully personalize slides using straightforward methods, all within a single integrated library.
 
@@ -25,4 +25,4 @@ Beyond just inserting an empty slide, we also have the capability to add a slide
 
 At the conclusion of these modifications, the presentation is preserved using `Save()`.
 
-[Learn to Manage Slides with IronPPT](https://ironsoftware.com/csharp/ppt/how-to/manage-slide/)
+[Learn to Manage Slides with IronPPT](https://ironsoftware.com/csharp/ppt/how-to/manage-slide/?utm_source=github)

@@ -1,6 +1,6 @@
 # IronPPT.Examples
 
-Runnable C# examples for [IronPPT](https://ironsoftware.com/csharp/ppt/), a .NET library for creating, reading, and editing PPTX presentations without Microsoft PowerPoint or Office Interop.
+Runnable C# examples for [IronPPT](https://ironsoftware.com/csharp/ppt/?utm_source=github), a .NET library for creating, reading, and editing PPTX presentations without Microsoft PowerPoint or Office Interop.
 
 ## Install
 
@@ -56,15 +56,15 @@ IronPPT supports programmatic creation and editing of `.pptx` files. Rendering p
 
 ## Platform support
 
-.NET 10, 9, 8, 7, 6, 5, .NET Core 3.1, .NET Standard 2 and 2.1, and .NET Framework 4.6.2+. Windows, macOS, Linux, Docker, Azure, and AWS. See the [installation docs](https://ironsoftware.com/csharp/ppt/docs/) for environment-specific notes.
+.NET 10, 9, 8, 7, 6, 5, .NET Core 3.1, .NET Standard 2 and 2.1, and .NET Framework 4.6.2+. Windows, macOS, Linux, Docker, Azure, and AWS. See the [installation docs](https://ironsoftware.com/csharp/ppt/docs/?utm_source=github) for environment-specific notes.
 
 ## Documentation and support
 
-- Full documentation: [ironsoftware.com/csharp/ppt/docs/](https://ironsoftware.com/csharp/ppt/docs/)
-- API reference: [ironsoftware.com/csharp/ppt/object-reference/api/](https://ironsoftware.com/csharp/ppt/object-reference/api/)
+- Full documentation: [ironsoftware.com/csharp/ppt/docs/](https://ironsoftware.com/csharp/ppt/docs/?utm_source=github)
+- API reference: [ironsoftware.com/csharp/ppt/object-reference/api/](https://ironsoftware.com/csharp/ppt/object-reference/api/?utm_source=github)
 - Issues with these examples: file directly on this repository
 - Product support: [support@ironsoftware.com](mailto:support@ironsoftware.com)
 
 ## About
 
-This repository is maintained by [Iron Software](https://ironsoftware.com/). IronPPT is a commercial library — see [licensing](https://ironsoftware.com/csharp/ppt/licensing/) for terms and trial details.
+This repository is maintained by [Iron Software](https://ironsoftware.com/?utm_source=github). IronPPT is a commercial library — see [licensing](https://ironsoftware.com/csharp/ppt/licensing/?utm_source=github) for terms and trial details.

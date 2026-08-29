@@ -1,4 +1,4 @@
-> Full guide: [Add paragraph](https://ironsoftware.com/csharp/ppt/examples/add-paragraph/)
+> Full guide: [Add paragraph](https://ironsoftware.com/csharp/ppt/examples/add-paragraph/?utm_source=github)
 
 Automating the insertion of paragraphs into PowerPoint slides is a transformative efficiency for developers. It sidesteps the monotony of repetitive tasks, freeing up resources to enhance both productivity and the creative aspects of presentation design.
 
@@ -19,4 +19,4 @@ To begin, we create a new `PresentationDocument`, essentially starting with a bl
 
 We then access the list of slide objects through the `Slides` property, retrieve the first slide, and implement the `AddParagraph` method to include our newly created paragraph on this slide. The process concludes with saving the new presentation using the `Save` method.
 
-[Explore Slide Management with IronPPT](https://ironsoftware.com/csharp/ppt/how-to/manage-slide/)
+[Explore Slide Management with IronPPT](https://ironsoftware.com/csharp/ppt/how-to/manage-slide/?utm_source=github)

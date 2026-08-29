@@ -1,4 +1,4 @@
-> Full guide: [Customized bullet point](https://ironsoftware.com/csharp/ppt/examples/customized-bullet-point/)
+> Full guide: [Customized bullet point](https://ironsoftware.com/csharp/ppt/examples/customized-bullet-point/?utm_source=github)
 
 Creating an effective presentation often requires directing attention to key points for your audience. While full paragraphs can be overly dense, using bullet points can provide a clear and concise method to present important information. IronPPT offers a user-friendly way to craft and insert customized bullet points, ensuring that key data stands out, which simplifies the process and removes the hassle of manual input.
 
@@ -17,4 +17,4 @@ The process to create a custom bullet point is straightforward. Initially, insta
 
 After setting up your `ParagraphStyle`, the next step involves constructing a new `Paragraph` object where this style is applied, incorporating the image-based bullet point. To conclude the set up, use the `AddText` method to embed your desired text within the paragraph. This method allows for customization of the bullet point, making your presentation visually engaging and informative.
 
-[Learn to Manage Slides with Our Step-by-Step Guide](https://ironsoftware.com/csharp/ppt/how-to/manage-slide/)
+[Learn to Manage Slides with Our Step-by-Step Guide](https://ironsoftware.com/csharp/ppt/how-to/manage-slide/?utm_source=github)
