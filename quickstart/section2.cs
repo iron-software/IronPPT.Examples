@@ -16,13 +16,13 @@ namespace IronPPT.Examples.Overview.Quickstart
             // Create the first slide if it doesn't exist yet
             if (document.Slides.Count == 0)
             {
-                document.Slides.Add();
+                document.AddSlide();
             }
             
             // Initialize an Image object
             // Load an image from a file specified by the file path
             // Ensure that "sample.png" exists at the specified path
-            Image image = new Image(); 
+            IronPPT.Models.Image image = new IronPPT.Models.Image();
             image.LoadFromFile("sample.png");
             
             // Add the image to the first slide of the presentation
@@ -30,7 +30,11 @@ namespace IronPPT.Examples.Overview.Quickstart
             
             // Edit the image's properties
             // Set the position of the image using X and Y coordinates
-            newImage.Position = new Point(200, 200);
+            newImage.Position = new IronPPT.Models.ElementPosition
+            {
+                X = new IronPPT.Models.DocUnit { Point = 200 },
+                Y = new IronPPT.Models.DocUnit { Point = 200 }
+            };
             
             // Set the rotation angle of the image in degrees
             newImage.Angle = 45;

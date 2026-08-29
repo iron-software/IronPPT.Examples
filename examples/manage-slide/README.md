@@ -1,4 +1,4 @@
-***Based on <https://ironsoftware.com/examples/manage-slide/>***
+> Full guide: [Manage slide](https://ironsoftware.com/csharp/ppt/examples/manage-slide/)
 
 Working programmatically with PowerPoint slides is efficiently handled using IronPPT, which allows developers to automate processes effectively. This tool makes it possible to modify slides — including removing them, reordering them, and setting visibility — through a series of simple commands, enabling full command over the slides’ configuration and display.
 

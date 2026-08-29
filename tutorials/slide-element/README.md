@@ -1,16 +1,15 @@
 # C# Slide Element Guide – IronPPT
 
-***Based on <https://ironsoftware.com/tutorials/slide-element/>***
+> Full guide: [C# Slide Element Guide – IronPPT](https://ironsoftware.com/csharp/ppt/tutorials/slide-element/)
 
 
 IronPPT serves as a powerful PowerPoint toolkit, enabling .NET C# developers to efficiently manage creation, reading, and modification of PowerPoint slides within their software solutions. Slides are crucial, as they help articulate and structure the presentation content clearly.
 
-*as-heading:2(Getting Started: Embedding Text into Slides)*
+## Getting Started: Embedding Text into Slides
 
 Learn how simple it is to embed text onto a slide using IronPPT. Whether you're starting from scratch or updating an existing slide, this snippet shows you how to quickly insert text and save your work with minimal coding.
 
 ```cs
-:title=Instant Slide Text Addition
 var ppt = new IronPPT.PresentationDocument();
 var newSlideText = ppt.Slides.Count > 0 ? ppt.Slides[0].AddText("Insert Text Easily") : ppt.Slides.Add(new IronPPT.Models.Slide()).AddText("Insert Text Easily");
 ppt.Save("updatedSlide.pptx");
@@ -19,17 +18,17 @@ ppt.Save("updatedSlide.pptx");
 ## Table of Contents
 
 - **Text Manipulation**
-  - [Editing Text](#text-content) (Add, Append & Delete)
-  - [Styling Text](#set-styling) (Font Type & Size, Color, Weight & Italic, Linethrough, Underline)
+  - Editing Text (Add, Append & Delete)
+  - Styling Text (Font Type & Size, Color, Weight & Italic, Linethrough, Underline)
 - **Image Integration**
-  - [Image Insertion](#add-images) (File & Stream Input)
-  - [Adjust Dimensions & Orientation](#add-images) (Size & Rotation)
-  - [Placement Customization](#add-images)
+  - Image Insertion (File & Stream Input)
+  - Adjust Dimensions & Orientation (Size & Rotation)
+  - Placement Customization
 - **Shape Incorporation**
-  - [Define Shape](#add-shapes)
-  - [Size Adjustment](#add-shapes) (Scale)
-  - [Color Customization](#add-shapes)
-  - [Precise Placement](#add-shapes)
+  - Define Shape
+  - Size Adjustment (Scale)
+  - Color Customization
+  - Precise Placement
 
 ## Text Manipulation
 

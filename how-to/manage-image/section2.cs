@@ -10,7 +10,7 @@ namespace IronPPT.Examples.HowTo.ManageImage
             var document = new PresentationDocument("existing-presentation.pptx");
             
             // Create and load an image from file
-            Image image = new Image();
+            IronPPT.Models.Image image = new IronPPT.Models.Image();
             image.LoadFromFile("image.jpg");
             
             // Add image to the second slide (index 1)
@@ -19,7 +19,12 @@ namespace IronPPT.Examples.HowTo.ManageImage
             // Modify image properties
             newImage.Angle = 45; // Rotate the image 45 degrees
             newImage.FrameShape = ShapeType.RoundRectangle; // Set the frame shape to Rounded Rectangle
-            newImage.Position = (180, 180); // Set the position to coordinates (180, 180)
+            // Position is an ElementPosition of DocUnits
+            newImage.Position = new IronPPT.Models.ElementPosition
+            {
+                X = new IronPPT.Models.DocUnit { Point = 180 },
+                Y = new IronPPT.Models.DocUnit { Point = 180 }
+            };
             newImage.Width = 300; // Set the width to 300 points
             newImage.Height = 300; // Set the height to 300 points
             

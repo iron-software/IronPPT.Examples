@@ -1,22 +1,21 @@
 # Managing PowerPoint Slides with C#
 
-***Based on <https://ironsoftware.com/how-to/manage-slide/>***
+> Full guide: [Managing PowerPoint Slides with C#](https://ironsoftware.com/csharp/ppt/how-to/manage-slide/)
 
 
 Slides form the core components of a presentation, acting as canvases that host various forms of content. These individual elements are crucial for visually structured presentations and can contain text, images, charts, and interactive media to engage audiences.
 
-## Quick Overview: Streamlining Slide Management with IronPPT
+## Quick Overview: Managing Slides with IronPPT
 
 Below, find a straightforward example to demonstrate the removal of a newly added slide. Utilizing IronPPT, developers can simplify the management of presentation slides, enabling more focus on developing impactful content.
 
 ```cs
-:title=Efficient Slide Management Made Easy
 new PresentationDocument().AddSlide().Slides[0].Remove();
 ```
 
 ### Adding Slides
 
-Effortlessly insert new slides into your presentation via the `AddSlide` method. This function appends slides at the end, facilitating smooth expansion of your presentation.
+The `AddSlide` method inserts a new slide, appended at the end of the presentation.
 
 ```csharp
 // Include necessary using directives for external libraries.
@@ -61,7 +60,7 @@ presentation.Save("removeSlide.pptx");
 
 ### Reordering Slides
 
-Modify the order of your slides with ease, customizing the narrative flow of your content. This reordering is seamless and versatile to suit changing presentation needs.
+Reorder slides to change the flow of the presentation.
 
 ```csharp
 using IronPPT;

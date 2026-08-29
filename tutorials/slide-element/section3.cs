@@ -1,3 +1,4 @@
+using IronPPT.Enums;
 using IronPPT.Models;
 using IronPPT;
 namespace IronPPT.Examples.Tutorial.SlideElement
@@ -17,7 +18,7 @@ namespace IronPPT.Examples.Tutorial.SlideElement
                 IsBold = true,                      // Text is bold
                 IsItalic = true,                    // Text is italic
                 Color = Color.Blue,                 // Text color is blue
-                Strike = StrikeValue.SingleStrike,  // Text is single struck-off
+                Strike = StrikValue.SingleStrike,   // Text is single struck-off (the shipped enum is spelled StrikValue)
                 Outline = true,                     // Text has an outline
                 NoProof = true,                     // Disables proofing for the text
                 Spacing = 10.0,                     // Text spacing is set to 10

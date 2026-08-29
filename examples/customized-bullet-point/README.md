@@ -1,4 +1,4 @@
-***Based on <https://ironsoftware.com/examples/customized-bullet-point/>***
+> Full guide: [Customized bullet point](https://ironsoftware.com/csharp/ppt/examples/customized-bullet-point/)
 
 Creating an effective presentation often requires directing attention to key points for your audience. While full paragraphs can be overly dense, using bullet points can provide a clear and concise method to present important information. IronPPT offers a user-friendly way to craft and insert customized bullet points, ensuring that key data stands out, which simplifies the process and removes the hassle of manual input.
 

@@ -9,8 +9,9 @@ namespace IronPPT.Examples.HowTo.AddSlide
             var document = new PresentationDocument("adding-slide-object.pptx");
             
             // Add 3 new slides to the presentation
-            for (i = 0; i < 3; i++) {
-                document.AddSlide()
+            for (int i = 0; i < 3; i++)
+            {
+                document.AddSlide();
             }
             
             // Export the file

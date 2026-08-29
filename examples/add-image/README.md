@@ -1,4 +1,4 @@
-***Based on <https://ironsoftware.com/examples/add-image/>***
+> Full guide: [Add image](https://ironsoftware.com/csharp/ppt/examples/add-image/)
 
 When crafting PowerPoint presentations, effectively using visuals to complement and enhance textual information is essential. By integrating images, presenters can clarify and reinforce their messages. Moreover, the ability to tailor specific aspects such as placement on the slide, image orientation, and size adds a customizable touch to the presentations.
 

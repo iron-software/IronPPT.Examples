@@ -19,7 +19,7 @@ namespace IronPPT.Examples.Tutorial.SlideElement
             var text = document.Slides[0].AddText("Hello");
             
             // Append text to the existing text on the slide
-            text.Content += " There!";
+            text.Text += " There!";
             
             // Check if there is any text element to remove from the first slide
             if (document.Slides[0].Texts.Count > 0)

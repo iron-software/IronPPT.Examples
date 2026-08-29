@@ -1,8 +1,8 @@
-***Based on <https://ironsoftware.com/examples/add-paragraph/>***
+> Full guide: [Add paragraph](https://ironsoftware.com/csharp/ppt/examples/add-paragraph/)
 
 Automating the insertion of paragraphs into PowerPoint slides is a transformative efficiency for developers. It sidesteps the monotony of repetitive tasks, freeing up resources to enhance both productivity and the creative aspects of presentation design.
 
-IronPPT equips developers with the tools to seamlessly integrate paragraphs into slides through a straightforward programming approach. Just a few lines of code catapult you into rapid slide content enrichment.
+IronPPT equips developers with the tools to integrate paragraphs into slides through a straightforward programming approach. Just a few lines of code catapult you into rapid slide content enrichment.
 
 ## 5-Step Guide to Inserting Paragraphs
 

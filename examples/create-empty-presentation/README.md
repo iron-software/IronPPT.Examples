@@ -1,6 +1,6 @@
-***Based on <https://ironsoftware.com/examples/create-empty-presentation/>***
+> Full guide: [Create empty presentation](https://ironsoftware.com/csharp/ppt/examples/create-empty-presentation/)
 
-IronPPT provides you with seamless management to craft a new, empty presentation effortlessly. The process is intuitive and requires only a few lines of code. Below, we'll detail how to set up your blank PowerPoint file quickly and efficiently.
+IronPPT creates a new, empty presentation in a few lines of code. Below, we'll detail how to set up your blank PowerPoint file quickly and efficiently.
 
 
 <div class="examples__featured-snippet examples__featured-snippet">
@@ -11,7 +11,6 @@ IronPPT provides you with seamless management to craft a new, empty presentation
         <li><code>presentation.Save("output.pptx");</code></li>
     </ol>
 </div>
-```
 
 ## Code Discussion
 
