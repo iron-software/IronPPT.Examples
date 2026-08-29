@@ -6,7 +6,7 @@
 
 Implementing an IronPPT license key in your project is essential for deploying without restrictions or watermarks.
 
-You can [purchase a license key here](https://ironsoftware.com/csharp/ppt/licensing/?utm_source=github) or start a [30-day free trial here](https://ironsoftware.com/trial-license?utm_source=github).
+You can [purchase a license key here](https://ironsoftware.com/csharp/ppt/licensing/?utm_source=github) or start a [30-day free trial here](https://ironsoftware.com/csharp/ppt/?utm_source=github#trial-license).
 
 ---
 
@@ -90,7 +90,7 @@ For an effective start with IronPPT, follow our detailed [Getting Started with I
 
 ## Questions or Require Assistance?
 
-For operational projects using IronPPT, obtaining a license key, either paid or trial, is necessary. Licenses can be purchased [here](https://ironsoftware.com/csharp/ppt/licensing/?utm_source=github) or start a trial by clicking [this link](https://ironsoftware.com/trial-license?utm_source=github).
+For operational projects using IronPPT, obtaining a license key, either paid or trial, is necessary. Licenses can be purchased [here](https://ironsoftware.com/csharp/ppt/licensing/?utm_source=github) or start a trial by clicking [this link](https://ironsoftware.com/csharp/ppt/?utm_source=github#trial-license).
 
 Explore a wealth of resources such as code samples, tutorials, license information, and complete documentation in the [IronPPT section](https://ironsoftware.com/csharp/ppt/?utm_source=github) on our site.
 
