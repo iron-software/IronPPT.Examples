@@ -1,6 +1,6 @@
 # Managing PowerPoint Slides with C#
 
-> Full guide: [Managing PowerPoint Slides with C#](https://ironsoftware.com/csharp/ppt/how-to/manage-slide/)
+> Full guide: [Managing PowerPoint Slides with C#](https://ironsoftware.com/csharp/ppt/how-to/manage-slide/?utm_source=github)
 
 
 Slides form the core components of a presentation, acting as canvases that host various forms of content. These individual elements are crucial for visually structured presentations and can contain text, images, charts, and interactive media to engage audiences.

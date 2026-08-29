@@ -1,4 +1,4 @@
-> Full guide: [Create empty presentation](https://ironsoftware.com/csharp/ppt/examples/create-empty-presentation/)
+> Full guide: [Create empty presentation](https://ironsoftware.com/csharp/ppt/examples/create-empty-presentation/?utm_source=github)
 
 IronPPT creates a new, empty presentation in a few lines of code. Below, we'll detail how to set up your blank PowerPoint file quickly and efficiently.
 
@@ -20,4 +20,4 @@ Once the namespace is included, you construct a new `PresentationDocument` objec
 
 Finally, employ the `Save` method from the `PresentationDocument` class to store your file as **output.pptx**. You can then utilize this presentation directly or enhance it by adding slides and content using the extensive features of IronPPT.
 
-[Explore Managing Slides with IronPPT](https://ironsoftware.com/csharp/ppt/how-to/manage-slide/)
+[Explore Managing Slides with IronPPT](https://ironsoftware.com/csharp/ppt/how-to/manage-slide/?utm_source=github)

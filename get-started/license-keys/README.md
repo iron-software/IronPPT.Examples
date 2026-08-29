@@ -1,12 +1,12 @@
 # Utilizing IronPPT License Keys
 
-> Full guide: [Utilizing IronPPT License Keys](https://ironsoftware.com/csharp/barcode/get-started/license-keys/)
+> Full guide: [Utilizing IronPPT License Keys](https://ironsoftware.com/csharp/barcode/get-started/license-keys/?utm_source=github)
 
 ## Acquiring a License Key
 
 Implementing an IronPPT license key in your project is essential for deploying without restrictions or watermarks.
 
-You can [purchase a license key here](https://ironsoftware.com/csharp/ppt/licensing/) or start a [30-day free trial here](https://ironsoftware.com/trial-license).
+You can [purchase a license key here](https://ironsoftware.com/csharp/ppt/licensing/?utm_source=github) or start a [30-day free trial here](https://ironsoftware.com/csharp/ppt/?utm_source=github#trial-license).
 
 ---
 
@@ -84,14 +84,14 @@ If it returns `true`, the key is correctly applied, allowing you to proceed with
 
 ## Step 4: Begin Your Project with IronPPT
 
-For an effective start with IronPPT, follow our detailed [Getting Started with IronPPT guide](https://ironsoftware.com/csharp/ppt/docs/). It provides extensive guidelines and examples to help you understand the basics of using IronPPT.
+For an effective start with IronPPT, follow our detailed [Getting Started with IronPPT guide](https://ironsoftware.com/csharp/ppt/docs/?utm_source=github). It provides extensive guidelines and examples to help you understand the basics of using IronPPT.
 
 ---
 
 ## Questions or Require Assistance?
 
-For operational projects using IronPPT, obtaining a license key, either paid or trial, is necessary. Licenses can be purchased [here](https://ironsoftware.com/csharp/ppt/licensing/) or start a trial by clicking [this link](https://ironsoftware.com/trial-license).
+For operational projects using IronPPT, obtaining a license key, either paid or trial, is necessary. Licenses can be purchased [here](https://ironsoftware.com/csharp/ppt/licensing/?utm_source=github) or start a trial by clicking [this link](https://ironsoftware.com/csharp/ppt/?utm_source=github#trial-license).
 
-Explore a wealth of resources such as code samples, tutorials, license information, and complete documentation in the [IronPPT section](https://ironsoftware.com/csharp/ppt/) on our site.
+Explore a wealth of resources such as code samples, tutorials, license information, and complete documentation in the [IronPPT section](https://ironsoftware.com/csharp/ppt/?utm_source=github) on our site.
 
 For further inquiries, please contact <support@ironsoftware.com>.

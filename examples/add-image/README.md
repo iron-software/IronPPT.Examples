@@ -1,4 +1,4 @@
-> Full guide: [Add image](https://ironsoftware.com/csharp/ppt/examples/add-image/)
+> Full guide: [Add image](https://ironsoftware.com/csharp/ppt/examples/add-image/?utm_source=github)
 
 When crafting PowerPoint presentations, effectively using visuals to complement and enhance textual information is essential. By integrating images, presenters can clarify and reinforce their messages. Moreover, the ability to tailor specific aspects such as placement on the slide, image orientation, and size adds a customizable touch to the presentations.
 
@@ -19,4 +19,4 @@ Once the image is added to the slide, you can position it by setting the `Positi
 
 For further customization, such as rotating the image, we adjust the `Angle` property to set the rotation to 45 degrees.
 
-[Learn to Manage PowerPoint Slides with IronPPT.](https://ironsoftware.com/csharp/ppt/how-to/manage-slide/)
+[Learn to Manage PowerPoint Slides with IronPPT.](https://ironsoftware.com/csharp/ppt/how-to/manage-slide/?utm_source=github)

@@ -1,6 +1,6 @@
 # Getting Started with IronPPT
 
-> Docs: [IronPPT documentation](https://ironsoftware.com/csharp/ppt/docs/)
+> Docs: [IronPPT documentation](https://ironsoftware.com/csharp/ppt/docs/?utm_source=github)
 
 
 ## Introduction to IronPowerPoint: PowerPoint Library for .NET Developers
@@ -149,9 +149,9 @@ presentation.Save("FinalPresentation.pptx");
 
 ## Licensing & Support
 
-**IronPPT** offers [complimentary trial licenses](https://ironsoftware.com/csharp/ppt/trial-license).
+**IronPPT** offers [complimentary trial licenses](https://ironsoftware.com/csharp/ppt/?utm_source=github#trial-license).
 
-For comprehensive details about Iron Software, visit [our homepage](https://ironsoftware.com/). For support or queries, feel free to [reach out to our support team](https://www.ironsoftware.com/csharp/ppt/#live-chat-support).
+For comprehensive details about Iron Software, visit [our homepage](https://ironsoftware.com/?utm_source=github). For support or queries, feel free to [reach out to our support team](https://ironsoftware.com/csharp/ppt/?utm_source=github#live-chat-support).
 
 ### Assistance from Iron Software
 

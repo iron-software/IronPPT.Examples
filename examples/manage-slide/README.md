@@ -1,4 +1,4 @@
-> Full guide: [Manage slide](https://ironsoftware.com/csharp/ppt/examples/manage-slide/)
+> Full guide: [Manage slide](https://ironsoftware.com/csharp/ppt/examples/manage-slide/?utm_source=github)
 
 Working programmatically with PowerPoint slides is efficiently handled using IronPPT, which allows developers to automate processes effectively. This tool makes it possible to modify slides — including removing them, reordering them, and setting visibility — through a series of simple commands, enabling full command over the slides’ configuration and display.
 
@@ -21,4 +21,4 @@ To rearrange slides, alter the index property. In the provided example, the inde
 
 To conceal a slide from view, identify the slide using its index and then set the `Show` property to false. Altering this attribute to false ensures the slide is hidden during presentations.
 
-[Learn more about managing slides with IronPPT](https://ironsoftware.com/csharp/ppt/how-to/manage-slide/)
+[Learn more about managing slides with IronPPT](https://ironsoftware.com/csharp/ppt/how-to/manage-slide/?utm_source=github)

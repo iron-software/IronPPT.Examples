@@ -1,4 +1,4 @@
-> Full guide: [Paragraph style](https://ironsoftware.com/csharp/ppt/examples/paragraph-style/)
+> Full guide: [Paragraph style](https://ironsoftware.com/csharp/ppt/examples/paragraph-style/?utm_source=github)
 
 Creating slides with customized content is crucial for crafting powerful presentations. Being able to tailor every aspect of the text and paragraphs allows presenters to spotlight vital information or points of interest. IronPPT, a .NET library designed for managing PowerPoint presentations, offers comprehensive tools for paragraph styling. This enables developers to adjust settings such as line spacing, text alignment, indents, and bullet lists within a single integrated package.
 
@@ -17,4 +17,4 @@ By setting the `NoBullet` attribute to **true**, we define our paragraph as a un
 
 After fine-tuning the properties, we map our customized `ParagraphStyle` to the `Style` attribute of a newly created `Paragraph` object. Demonstrating this, we then populate our paragraph by invoking the `AddText` method. To incorporate this styled paragraph into the actual presentation, we navigate to the first slide by referencing the `Slides` array and use the `AddParagraph` method to integrate our styled text.
 
-[Discover How to Manage Slides with IronPPT](https://ironsoftware.com/csharp/ppt/how-to/manage-slide/)
+[Discover How to Manage Slides with IronPPT](https://ironsoftware.com/csharp/ppt/how-to/manage-slide/?utm_source=github)
