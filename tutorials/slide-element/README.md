@@ -18,17 +18,17 @@ ppt.Save("updatedSlide.pptx");
 ## Table of Contents
 
 - **Text Manipulation**
-  - [Editing Text](#text-content) (Add, Append & Delete)
-  - [Styling Text](#set-styling) (Font Type & Size, Color, Weight & Italic, Linethrough, Underline)
+  - Editing Text (Add, Append & Delete)
+  - Styling Text (Font Type & Size, Color, Weight & Italic, Linethrough, Underline)
 - **Image Integration**
-  - [Image Insertion](#add-images) (File & Stream Input)
-  - [Adjust Dimensions & Orientation](#add-images) (Size & Rotation)
-  - [Placement Customization](#add-images)
+  - Image Insertion (File & Stream Input)
+  - Adjust Dimensions & Orientation (Size & Rotation)
+  - Placement Customization
 - **Shape Incorporation**
-  - [Define Shape](#add-shapes)
-  - [Size Adjustment](#add-shapes) (Scale)
-  - [Color Customization](#add-shapes)
-  - [Precise Placement](#add-shapes)
+  - Define Shape
+  - Size Adjustment (Scale)
+  - Color Customization
+  - Precise Placement
 
 ## Text Manipulation
 
